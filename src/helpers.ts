@@ -30,7 +30,7 @@ export async function getLatestPatchVersion(
    minor: string
 ): Promise<string> {
    const version = `${major}.${minor}`
-   const sourceURL = `https://cdn.dl.k8s.io/release/stable-${version}.txt`
+   const sourceURL = `https://dl.k8s.io/release/stable-${version}.txt`
    try {
       const downloadPath = await toolCache.downloadTool(sourceURL)
       const latestPatch = fs

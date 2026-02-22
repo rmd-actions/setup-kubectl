@@ -176,7 +176,7 @@ describe('Testing all functions in run file.', () => {
 
       expect(result).toBe('v1.27.15')
       expect(toolCache.downloadTool).toHaveBeenCalledWith(
-         'https://cdn.dl.k8s.io/release/stable-1.27.txt'
+         'https://dl.k8s.io/release/stable-1.27.txt'
       )
    })
 
