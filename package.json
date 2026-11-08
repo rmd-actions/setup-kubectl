@@ -1,6 +1,6 @@
 {
    "name": "setup-kubectl-action",
-   "version": "5.1.0",
+   "version": "5.2.0",
    "private": true,
    "main": "lib/index.js",
    "type": "module",
@@ -27,11 +27,11 @@
       "@actions/tool-cache": "^4.0.0"
    },
    "devDependencies": {
-      "@types/node": "^26.4.1",
+      "@types/node": "^26.6.6",
       "esbuild": "^0.28.2",
       "husky": "^9.1.7",
-      "prettier": "3.9.6",
+      "prettier": "3.9.10",
       "typescript": "7.0.2",
-      "vitest": "^5.0.0"
+      "vitest": "^5.0.5"
    }
 }
